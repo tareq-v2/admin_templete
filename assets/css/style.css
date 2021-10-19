@@ -1,0 +1,51 @@
+.input-title {
+    margin-top: 20px;
+    padding-bottom: 12px;
+}
+
+.form-body {
+    background: white;
+    padding: 20px;
+}
+.search-area {
+    text-align: right;
+}
+.admin-view-area {
+    margin-top: 20px;
+}
+.content-form-wrapper {
+    background: white;
+    padding: 26px;
+}
+
+.content-form {
+    margin-top: 50px;
+}
+
+
+@font-face {
+font-family: summernote;
+src : url('../font/summernote.ttf');
+src : url('../font/summernote.eot'),
+      url('../font/summernote.woff'),
+      url('../font/summernote.woff2');
+}
+
+@media screen and (min-width: 992px)
+{
+	.form-group label{
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.buttons-area {
+    text-align: center;
+}
+.search-area {
+    text-align: center;
+    margin-top: 10px;
+}
+
+}
